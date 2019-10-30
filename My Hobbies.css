@@ -1,0 +1,53 @@
+body{
+    background-image:"./Image/Phearum.jpg";
+}
+ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    overflow: hidden;
+    background-color: teal;
+  }
+  
+  li {
+    float: left;
+    border-right: 2px solid #bbb;
+}
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: wheat;
+  }
+  body{
+    margin:0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+#taxt{
+    margin:0px;
+}
+#Marvel{
+    border: double;
+    float: left;
+    width: 600px;
+    margin: 50px 20px;
+    padding: 30px 10px;
+    color: teal;
+    font-size: 20px;
+}
+#Title{
+    text-align: center;
+    color: teal;
+   font-size: 40px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#Movie{
+  margin: 0px;
+  padding: 0px;
+}

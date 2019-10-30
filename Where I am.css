@@ -1,0 +1,49 @@
+ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    overflow: hidden;
+    background-color: wheat;
+  }
+  
+  li {
+    float: left;
+    border-right: 2px solid #bbb;
+}
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: teal;
+  }
+  body{
+    margin:0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+#taxt{
+    margin:0px;
+}
+#Map{
+    text-align: center;
+    color: floralwhite;
+   font-size: 40px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#tixt{
+  border: double;
+    float: left;
+    width: 500px;
+    margin: 10px 20px;
+    padding: 30px 10px;
+    color: floralwhite;
+    font-size: 20px;
+}
+.mapouter {
+  margin-left: 600px;
+}
